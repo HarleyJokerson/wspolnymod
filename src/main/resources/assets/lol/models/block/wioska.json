@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lol:blocks/wioska_bottom",
+    "up": "lol:blocks/puste",
+    "north": "lol:blocks/wioska_1",
+    "east": "lol:blocks/wioska_1",
+    "south": "lol:blocks/wioska_1",
+    "west": "lol:blocks/wioska_1",
+    "particle": "lol:blocks/wioska_bottom"
+  }
+}

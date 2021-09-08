@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "DownRim",
+          "color": {
+            "value": -13421824,
+            "falpha": 0.0
+          },
+          "name": "DownRim",
+          "x": 206,
+          "y": 8
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 15,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

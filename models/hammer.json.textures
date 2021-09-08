@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ruda_spaczona",
+        "missing": "ruda_spaczona"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Wioska",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wioska",
+      "path": "~/Rozwoj_wioski/Ratusz_poziom_1"
+    },
+    {
+      "name": "Wioskaprzepis",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wioskaprzepis",
+      "path": "~/Rozwoj_wioski/Ratusz_poziom_1"
+    },
+    {
+      "name": "Wioskispawn",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wioskispawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Rozwoj_wioski/Ratusz_poziom_1"
+    },
+    {
+      "name": "Wioska2",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wioska_2",
+      "path": "~/Rozwoj_wioski/Ratusz_poziom_2"
+    },
+    {
+      "name": "Wioskaprzepis2",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wioskaprzepis_2",
+      "path": "~/Rozwoj_wioski/Ratusz_poziom_2"
+    },
+    {
+      "name": "Wioskispaw2",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wioskispaw_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Rozwoj_wioski/Ratusz_poziom_2"
+    },
+    {
+      "name": "NPCRightClickedOnEntityDialog",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "npc_right_clicked_on_entity_dialog",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Rozwoj_wioski/Ratusz_poziom_1"
+    },
+    {
+      "name": "NPC",
+      "type": "livingentity",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "npc",
+      "path": "~/Rozwoj_wioski/Ratusz_poziom_1"
+    },
+    {
+      "name": "NPCNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "npc_natural_entity_spawning_condition",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "NPC2",
+      "type": "livingentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "npc_2",
+      "path": "~/Rozwoj_wioski/Ratusz_poziom_2"
+    },
+    {
+      "name": "NPCPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "npc_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Rozwoj_wioski/Ratusz_poziom_1"
+    },
+    {
+      "name": "MlotRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mlot_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mlot",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mlot"
+    },
+    {
+      "name": "NPCItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "npc_it_is_struck_by_lightning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Rozwoj_wioski/Ratusz_poziom_1"
+    },
+    {
+      "name": "Zazaz",
+      "type": "overlay",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zazaz"
+    },
+    {
+      "name": "Wioskazbudowana",
+      "type": "achievement",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wioskazbudowana",
+      "path": "~/Rozwoj_wioski/Ratusz_poziom_1"
+    },
+    {
+      "name": "Dialogy",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dialogy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "advancement",
+            "type": "advancement"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ratusz2",
+      "type": "achievement",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ratusz_2",
+      "path": "~/Rozwoj_wioski/Ratusz_poziom_2"
+    },
+    {
+      "name": "Zestawdropupo1szymachiv",
+      "type": "loottable",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zestawdropupo_1szymachiv",
+      "path": "~/Rozwoj_wioski/Ratusz_poziom_1"
+    },
+    {
+      "name": "Kowalpoz1",
+      "type": "livingentity",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kowalpoz_1"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.lol.kowalpoz_1_spawn_egg": "Kowal 1 Spawn Egg",
+      "block.lol.wioska_2": "Wioska",
+      "item.lol.mlot": "Mlot",
+      "item.lol.npc_2_spawn_egg": "NPC Spawn Egg",
+      "advancements.wioskazbudowana.descr": "Stwórz Ratusz Poziom I",
+      "advancements.ratusz_2.descr": "Ulepsz Ratusz do poziomu II",
+      "advancements.wioskazbudowana.title": "Pocz¹tek cywilizacji",
+      "entity.lol.npc": "NPC",
+      "block.lol.wioska": "Wioska",
+      "advancements.ratusz_2.title": "Ratusz 2",
+      "entity.lol.npc_2": "NPC",
+      "item.lol.npc_spawn_egg": "NPC Spawn Egg",
+      "entity.lol.kowalpoz_1": "Kowal 1"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Rozwoj_wioski",
+        "children": [
+          {
+            "name": "Ratusz_poziom_2",
+            "children": []
+          },
+          {
+            "name": "Ratusz_poziom_1",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "lol",
+    "modName": "lol",
+    "version": "1.0.0",
+    "author": "tomek, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.lol",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

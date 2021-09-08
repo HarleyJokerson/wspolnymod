@@ -1,0 +1,7 @@
+{
+  "parent": "lol:custom/waraxe",
+  "textures": {
+    "0": "lol:blocks/waraxe",
+    "particle": "lol:items/mlot"
+  }
+}
