@@ -15,8 +15,10 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.Entity;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.lol.procedures.MlotToolInHandTickProcedure;
 import net.mcreator.lol.procedures.MlotRightClickedOnBlockProcedure;
 import net.mcreator.lol.LolModElements;
 
@@ -79,6 +81,23 @@ public class MlotItem extends LolModElements.ModElement {
 					MlotRightClickedOnBlockProcedure.executeProcedure($_dependencies);
 				}
 				return retval;
+			}
+
+			@Override
+			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
+				super.inventoryTick(itemstack, world, entity, slot, selected);
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+				if (selected) {
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					$_dependencies.put("x", x);
+					$_dependencies.put("y", y);
+					$_dependencies.put("z", z);
+					$_dependencies.put("world", world);
+					MlotToolInHandTickProcedure.executeProcedure($_dependencies);
+				}
 			}
 		}.setRegistryName("mlot"));
 	}

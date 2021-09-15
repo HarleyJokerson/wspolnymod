@@ -25,6 +25,9 @@
     "damageOnCrafting": false,
     "onRightClickedOnBlock": {
       "name": "MlotRightClickedOnBlock"
+    },
+    "onItemInUseTick": {
+      "name": "MlotToolInHandTick"
     }
   }
 }

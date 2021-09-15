@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": -41,
+    "inventoryOffsetY": 1,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "",
+          "color": {
+            "value": -13421569,
+            "falpha": 0.0
+          },
+          "name": "",
+          "x": 380,
+          "y": 5
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 0,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #0",
+          "x": 16,
+          "y": 17
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 19,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
