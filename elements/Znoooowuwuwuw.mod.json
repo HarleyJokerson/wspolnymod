@@ -1,0 +1,188 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 180,
+    "height": 180,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Witaj w nawiedzonych moczarach,",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Witaj w nawiedzonych moczarach,",
+          "x": 128,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "nie wiem co tu robisz i mnie to",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "nie wiem co tu robisz i mnie to",
+          "x": 128,
+          "y": 52
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "nie obchodzi ale jeœli masz zamiar",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "nie obchodzi ale jeœli masz zamiar",
+          "x": 128,
+          "y": 64
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "daæ siê zabiæ nas w to nie mieszaj",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "daæ siê zabiæ nas w to nie mieszaj",
+          "x": 128,
+          "y": 75
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Spokojnie, przyszed³em tu po coœ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Spokojnie, przyszed³em tu po coœ",
+          "x": 128,
+          "y": 108
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "co mi siê nale¿y, wiêc nie wchodŸ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "co mi siê nale¿y, wiêc nie wchodŸ",
+          "x": 129,
+          "y": 119
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "mi w drogê starcze",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "mi w drogê starcze",
+          "x": 129,
+          "y": 129
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Pewny siebie",
+          "onClick": {
+            "name": "Pewnysiebie"
+          },
+          "width": 85,
+          "height": 20,
+          "name": "Pewny siebie",
+          "x": 128,
+          "y": 86
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Pokornie",
+          "width": 65,
+          "height": 20,
+          "name": "Pokornie",
+          "x": 128,
+          "y": 141
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jest coœ co powinienem wiedzieæ? ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Jest coœ co powinienem wiedzieæ? ",
+          "x": 128,
+          "y": 163
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jestem tu pierwszy raz i doceniê",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Jestem tu pierwszy raz i doceniê",
+          "x": 130,
+          "y": 175
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "ka¿d¹ pomoc",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "ka¿d¹ pomoc",
+          "x": 130,
+          "y": 186
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "textFieldName",
+          "x": 187,
+          "y": 186
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

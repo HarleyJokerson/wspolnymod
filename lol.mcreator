@@ -233,15 +233,6 @@
       "path": "~/Rozwoj_wioski/Ratusz_poziom_1"
     },
     {
-      "name": "Zazaz",
-      "type": "overlay",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "zazaz"
-    },
-    {
       "name": "Wioskazbudowana",
       "type": "achievement",
       "sortid": 22,
@@ -262,8 +253,24 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "advancement",
-            "type": "advancement"
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
           },
           {
             "name": "world",
@@ -300,19 +307,287 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "kowalpoz_1"
+    },
+    {
+      "name": "Timer",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "timer",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Test",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Odwojtka",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odwojtka",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "Mana",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana",
+      "path": "~/Mana"
+    },
+    {
+      "name": "Ytytytyty",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ytytytyty",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Guistaty",
+      "type": "gui",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guistaty"
+    },
+    {
+      "name": "GuistatyThisGUIIsOpened",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guistaty_this_gui_is_opened",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Ksiega",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ksiega"
+    },
+    {
+      "name": "Ksiegagui",
+      "type": "gui",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ksiegagui"
+    },
+    {
+      "name": "Proceduraprzyciskwstecz",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "proceduraprzyciskwstecz",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Proceduraprzyciskdalej",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "proceduraprzyciskdalej",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Znoooowuwuwuw",
+      "type": "gui",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "znoooowuwuwuw"
+    },
+    {
+      "name": "Pewnysiebie",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pewnysiebie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MlotToolInHandTick",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mlot_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Manatestpotka",
+      "type": "potioneffect",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manatestpotka",
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManatestpotkaEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manatestpotka_effect_startedapplied",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "TimeMin",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "TimeSec",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "mana",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "numerstrony",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "1.0"
+    },
+    {
+      "name": "pewnysiebie",
+      "type": "string",
+      "scope": "global",
+      "value": "\"\""
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "item.lol.kowalpoz_1_spawn_egg": "Kowal 1 Spawn Egg",
       "block.lol.wioska_2": "Wioska",
-      "item.lol.npc_2_spawn_egg": "NPC Spawn Egg",
       "item.lol.mlot": "Mlot",
+      "item.lol.npc_2_spawn_egg": "NPC Spawn Egg",
+      "item.lol.mana": "Mana",
       "advancements.wioskazbudowana.descr": "Stwórz Ratusz Poziom I",
       "advancements.ratusz_2.descr": "Ulepsz Ratusz do poziomu II",
+      "effect.manatestpotka": "Mana",
       "advancements.wioskazbudowana.title": "Pocz¹tek cywilizacji",
+      "item.lol.ksiega": "Ksiega",
       "entity.lol.npc": "NPC",
       "block.lol.wioska": "Wioska",
       "advancements.ratusz_2.title": "Ratusz 2",
@@ -336,6 +611,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Mana",
+        "children": []
       }
     ]
   },
